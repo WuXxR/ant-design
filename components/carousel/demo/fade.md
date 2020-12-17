@@ -17,7 +17,7 @@ Slides use fade for transition.
 import { Carousel } from 'antd';
 
 ReactDOM.render(
-  <Carousel effect="fade">
+  <Carousel effect="fade" vertical="true">
     <div><h3>1</h3></div>
     <div><h3>2</h3></div>
     <div><h3>3</h3></div>
